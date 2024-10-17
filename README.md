@@ -4,7 +4,7 @@
 4. URDF with Xacro
 5. Advanced Launch XML & Py
 6. Rviz & Gazebo
-7. Sensors in Gazebo
+7. Sensors & Plugins in Gazebo
 
 <img src="photos/1.png" alt="using a color picker" width="40%" /><img src="photos/2.png" alt="using a color picker" width="39%" /><img src="photos/3.png" alt="using a color picker" width="40%" /><img src="photos/4.png" alt="using a color picker" width="40%" />
 
