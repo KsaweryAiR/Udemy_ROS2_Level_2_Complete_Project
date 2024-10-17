@@ -33,7 +33,7 @@ ros2 topic pub -1 /set_joint_trajectory trajectory_msgs/msg/JointTrajectory '{he
 {frame_id: base_footprint}, joint_names: [arm_base_forearm_joint, forearm_hand_joint],
 points: [ {positions: {0.2, 0.5}} ]}'
 ```
-<img src="photos/gaz.gif" alt="using a color picker" width="40%" /><img src="photos/rv.gif" alt="using a color picker" width="40%" />
+<img src="photos/gaz.gif" alt="using a color picker" width="50%" /><img src="photos/rv.gif" alt="using a color picker" width="50%" />
 
 
 
