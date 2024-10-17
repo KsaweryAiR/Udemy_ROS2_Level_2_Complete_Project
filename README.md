@@ -5,3 +5,36 @@
 5. Advanced Launch XML & Py
 6. Rviz & Gazebo
 7. Sensors in Gazebo
+
+
+**How to run:**
+
+
+
+**build:**
+
+`colcon build`
+
+`source install/setup.bash`
+
+**Running Rviz & Gazebo (simulation)** 
+```bash
+ros2 launch my_robot_bringup my_robot_gazebo.launch.xml
+```
+
+**Control wheels** 
+```bash
+ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.3}}
+```
+
+**Control arm** 
+```bash
+ros2 topic pub -1 /set_joint_trajectory trajectory_msgs/msg/JointTrajectory '{header:
+{frame_id: base_footprint}, joint_names: [arm_base_forearm_joint, forearm_hand_joint],
+points: [ {positions: {0.2, 0.5}} ]}'
+```
+<img src="photos/gaz.gif" alt="using a color picker" width="40%" /><img src="photos/rv.gif" alt="using a color picker" width="40%" />
+
+
+
+
