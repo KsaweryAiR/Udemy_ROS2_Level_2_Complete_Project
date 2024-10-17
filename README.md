@@ -6,10 +6,10 @@
 6. Rviz & Gazebo
 7. Sensors in Gazebo
 
+<img src="photos/1.png" alt="using a color picker" width="25%" /><img src="photos/2.png" alt="using a color picker" width="25%" /><img src="photos/3.png" alt="using a color picker" width="25%" /><img src="photos/4.png" alt="using a color picker" width="25%" />
+
 
 **How to run:**
-
-
 
 **build:**
 
